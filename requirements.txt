@@ -1,0 +1,4 @@
+pillow
+transformers
+jupyter
+torch
