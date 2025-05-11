@@ -2,3 +2,4 @@ pillow
 transformers
 jupyter
 torch
+pyqt6
