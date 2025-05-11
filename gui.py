@@ -187,7 +187,7 @@ class MainWindow(QtWidgets.QMainWindow):
             backend.crop_and_save(img, dets, base, dst)
             self.progress_bar.setValue(i)
             QtWidgets.QApplication.processEvents()
-            time.sleep(2)  # Simulate heavy computation
+            time.sleep(1)  # Simulate heavy computation
         QtWidgets.QMessageBox.information(self, "Done", "Cropped images saved.")
 
 if __name__ == '__main__':
