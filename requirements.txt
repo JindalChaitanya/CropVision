@@ -3,3 +3,4 @@ transformers
 jupyter
 torch
 pyqt6
+timm
