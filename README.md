@@ -1,6 +1,6 @@
-#  Crop Vision ✂️👁️
+#  CropVision ✂️👁️
 
-**Crop Vision** is a user-friendly desktop application designed to streamline the process of object detection and cropping using state-of-the-art YOLO models. Built with Python, PyQt6, and the powerful `ultralytics` library, it provides an interactive interface for selecting images, running detections, visualizing results, and saving precise crops for your datasets or projects.
+**CropVision** is a user-friendly desktop application designed to streamline the process of object detection and cropping using state-of-the-art YOLO models. Built with Python, PyQt6, and the powerful `ultralytics` library, it provides an interactive interface for selecting images, running detections, visualizing results, and saving precise crops for your datasets or projects.
 
 ![Screenshot Placeholder](assets/screenshot.png)
 
@@ -9,7 +9,7 @@
 ## ✨ Features
 
 * **Intuitive GUI:** A clean, modern interface built with PyQt6, featuring a resizable layout.
-* **Flexible Model Loading:** Load any YOLO model compatible with the `ultralytics` library (e.g., `yolov8n.pt`, custom-trained models).
+* **Flexible Model Loading:** Load any YOLO model compatible with the `ultralytics` library (e.g., `yolo11x.pt`, custom-trained models).
 * **Source/Output Flexibility:** Easily select source directories (including subfolders) and define where to save your crops.
 * **Image Browse:** View images as thumbnails with an easy-to-use pagination system.
 * **Interactive Preview:**
@@ -29,7 +29,7 @@
 
 ## 🚀 Installation
 
-Follow these steps to set up and run Crop Vision on your local machine.
+Follow these steps to set up and run CropVision on your local machine.
 
 1.  **Prerequisites:**
     * **Python 3.8+**: Ensure you have a compatible Python version installed.
@@ -88,20 +88,7 @@ Follow these steps to set up and run Crop Vision on your local machine.
     * Select an image.
     * Click "Delete Selected Image". You will be asked for confirmation before the file is permanently removed.
 
----
 
-## 🛠️ Project Structure
-'''bash
-crop-vision/
-├── crop_vision/          # Main application package
-│   ├── main.py           # Entry point
-│   ├── config.py         # Default settings
-│   ├── core/             # Backend logic
-│   └── gui/              # PyQt6 frontend logic
-├── assets/               # Icons, screenshots
-├── requirements.txt      # Dependencies
-└── README.md             # This file
-'''
 ---
 
 ## 🔮 Future Ideas
