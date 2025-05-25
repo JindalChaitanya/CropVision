@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QPushButton, QLabel, QFileDialog, QListWidget, QListWidgetItem,
     QSlider, QLineEdit, QMessageBox, QSplitter, QProgressDialog, QCompleter,
-    QSizePolicy
+    QSizePolicy, QStatusBar
 )
 from PyQt6.QtCore import (
     Qt, QThreadPool, pyqtSignal, QSize, QStringListModel, QTimer
@@ -65,6 +65,15 @@ class MainWindow(QMainWindow):
 
         main_layout.addWidget(self.splitter)
 
+        # --- Status Bar ---
+        self.statusBar = QStatusBar(self)
+        self.setStatusBar(self.statusBar)
+        self.statusBar.showMessage("Ready. Load a model and select a source folder.")
+        
+        self.signatureLabel = QLabel("Crafted by Chaitanya Jindal")
+        self.signatureLabel.setStyleSheet("padding-right: 10px; color: #555;")
+        self.statusBar.addPermanentWidget(self.signatureLabel)
+        
         # --- Resize Timer ---
         self.resize_timer = QTimer(self)
         self.resize_timer.setSingleShot(True)
