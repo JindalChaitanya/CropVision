@@ -2,3 +2,4 @@
 /crop_vision/__pycache__
 /crop_vision/core/__pycache__
 *.pyc
+yolo11x.pt
