@@ -1,6 +1,5 @@
-pillow
-transformers
-jupyter
+PyQt6
+ultralytics
 torch
-pyqt6
-timm
+torchvision
+Pillow
