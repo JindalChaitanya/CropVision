@@ -3,7 +3,6 @@
 **Crop Vision** is a user-friendly desktop application designed to streamline the process of object detection and cropping using state-of-the-art YOLO models. Built with Python, PyQt6, and the powerful `ultralytics` library, it provides an interactive interface for selecting images, running detections, visualizing results, and saving precise crops for your datasets or projects.
 
 ![Screenshot Placeholder](assets/screenshot.png)
-*(Suggestion: Add a screenshot of your application here and save it as `assets/screenshot.png`)*
 
 ---
 
@@ -34,11 +33,10 @@ Follow these steps to set up and run Crop Vision on your local machine.
 
 1.  **Prerequisites:**
     * **Python 3.8+**: Ensure you have a compatible Python version installed.
-    * **(Optional but Recommended) Git**: For cloning the project.
 
 2.  **Clone the Repository:**
     ```bash
-    git clone [Your_Repository_Link]  # Or download and extract the ZIP
+    git clone https://github.com/JindalChaitanya/CropVision.git  # Or download and extract the ZIP
     cd crop-vision
     ```
 
@@ -69,7 +67,7 @@ Follow these steps to set up and run Crop Vision on your local machine.
     python crop_vision/main.py
     ```
 2.  **Load a Model:**
-    * Enter the name (e.g., `yolov8n.pt`, it will download if not present) or the full path to your `.pt` model file in the "Model" input field.
+    * Enter the name (e.g., `yolo11x.pt`, it will download if not present) or the full path to your `.pt` model file in the "Model" input field.
     * Click "Load Model". Wait for the confirmation message and status update.
 3.  **Select Folders:**
     * Click "Source Folder" and choose the directory containing your images. Thumbnails will appear.
@@ -93,7 +91,7 @@ Follow these steps to set up and run Crop Vision on your local machine.
 ---
 
 ## 🛠️ Project Structure
-
+'''bash
 crop-vision/
 ├── crop_vision/          # Main application package
 │   ├── main.py           # Entry point
@@ -103,7 +101,7 @@ crop-vision/
 ├── assets/               # Icons, screenshots
 ├── requirements.txt      # Dependencies
 └── README.md             # This file
-
+'''
 ---
 
 ## 🔮 Future Ideas
@@ -132,5 +130,4 @@ This project is currently unlicensed. Consider adding an open-source license lik
 ## 🧑‍💻 Author
 
 This application was created by Chaitanya Jindal.
-
-https://github.com/JindalChaitanya
+[Github](https://github.com/JindalChaitanya) | [LinkedIn](https://www.linkedin.com/in/jindalchaitanya/)
