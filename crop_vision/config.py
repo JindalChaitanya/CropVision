@@ -9,7 +9,7 @@ DEFAULT_OUTPUT_DIR = os.path.join(os.getcwd(), "yolo_crops")
 
 # --- Supported Image Formats ---
 # Used in core/image_utils.py - ensures consistency
-SUPPORTED_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff')
+SUPPORTED_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.bmp', '.tiff', '.webp')
 
 # --- GUI Settings ---
 WINDOW_TITLE = "CropVision v3.1"
